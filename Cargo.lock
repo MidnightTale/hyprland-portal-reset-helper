@@ -71,6 +71,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b"
 
 [[package]]
+name = "hyprland-portal-reset-helper"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "nix",
+]
+
+[[package]]
 name = "iana-time-zone"
 version = "0.1.63"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -141,14 +149,6 @@ name = "once_cell"
 version = "1.21.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
-
-[[package]]
-name = "portal-reset"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "nix",
-]
 
 [[package]]
 name = "proc-macro2"
