@@ -1,0 +1,15 @@
+[package]
+name = "portal-reset"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+nix = { version = "0.27", features = ["signal", "process", "user", "fs"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

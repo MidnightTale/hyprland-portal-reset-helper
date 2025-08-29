@@ -1,0 +1,24 @@
+# Rust build directory
+/target/
+
+# Remove Cargo.lock from gitignore if creating an executable, keep it for libraries
+# More information here https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+# Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Debug logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# OS specific files
+.DS_Store
+Thumbs.db
