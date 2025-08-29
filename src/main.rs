@@ -259,7 +259,6 @@ fn spawn_portal(path: &str, name: &str) -> nix::Result<()> {
             });
 
             log(LogLevel::Success, &format!("Started {} {}", name, format_pid(child)));
-        Ok(())
             Ok(())
         },
         ForkResult::Child => {
