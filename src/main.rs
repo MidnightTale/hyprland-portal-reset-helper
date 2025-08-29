@@ -277,6 +277,7 @@ fn spawn_portal(path: &str, name: &str) -> nix::Result<()> {
             
             // Execute the portal
             let err = process::Command::new(path)
+                .arg("-v")
                 .spawn()
                 .expect("failed to execute portal")
                 .wait();
