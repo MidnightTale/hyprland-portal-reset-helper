@@ -1,5 +1,5 @@
 [package]
-name = "portal-reset"
+name = "hyprland-portal-reset-helper"
 version = "0.1.0"
 edition = "2021"
 
