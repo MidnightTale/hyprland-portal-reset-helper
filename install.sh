@@ -1,0 +1,1 @@
+sudo install -Dm755 target/release/hyprland-portal-reset-helper /usr/local/bin/
